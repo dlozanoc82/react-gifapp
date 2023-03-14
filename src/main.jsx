@@ -5,11 +5,6 @@ import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        {/* titulo */}
-        <GiffyApp />
-        {/* input */}
-
-        {/* listado de gif */}
-        {/* gif item */}
+        <GiffyApp />,
     </React.StrictMode>,
 );
