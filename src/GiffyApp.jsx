@@ -10,7 +10,7 @@ export const GiffyApp = () => {
         if (categories.includes(newCategory) ) return;
 
         console.log(newCategory);
-        setCategories([...categories, newCategory]);
+        setCategories([newCategory, ...categories]);
     }
 
     return (
